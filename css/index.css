@@ -1,0 +1,120 @@
+body {
+    background: #efecf5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background: white;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    position: relative;
+    top: -28px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.6);
+}
+select {
+    display: block;
+    width: fit-content;
+    padding: 5px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    position: relative;
+    top: -30px;
+}
+
+option {
+    text-align: left;
+}
+
+.current-timezone {
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+#current-date, #current-time, p {
+    margin: 0;
+}
+
+#current-time {
+    font-size: 48px;
+    font-weight: bolder;
+    position: relative;
+    top: -20px;
+}
+
+#current-time small {
+    font-size: 24px;
+    line-height: 48px;
+    vertical-align: middle;
+}
+
+#current-date {
+    font-size: 14px;
+    opacity: 0.8;
+    position: relative;
+    top: -25px;
+}
+
+#cities {
+    position: relative;
+    top: -20px;
+}
+
+.city {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.citySelected {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    margin: 0;
+}
+.city:first-child{
+    padding: 0;
+}
+
+.city h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.date {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.time {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.time small {
+    font-size: 15px;
+    line-height: 48px;
+    vertical-align: middle;
+}
+footer {
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    top: -10px;
+}
+
+
